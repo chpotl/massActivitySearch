@@ -2,7 +2,7 @@ import requests
 import time
 import datetime
 
-API_KEY = "AIUJ7FYXD6JFMYTF9TAV1TF1R1NW1F6SHA"
+API_KEY = "" #eth scan api key
 def main():
     SAME_TRX_COUNT = int(input("Количество транзакций для уведомления: "))
     TIME_FRAME_SEC = int(input("Частота уведомлений (мин): "))*60
